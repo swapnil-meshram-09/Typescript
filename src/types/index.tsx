@@ -4,4 +4,7 @@
 const name: String = 'myName'
 // console.log(name);
 
+const num: Number = 123;
+console.log(num);
+
 
