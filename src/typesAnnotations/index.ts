@@ -11,3 +11,10 @@ const bool2: boolean = false
 // console.log(bool2);
 
 
+
+
+// type checking
+
+let value: string = 'string'
+//  value = 123       // error
+// console.log(value);
