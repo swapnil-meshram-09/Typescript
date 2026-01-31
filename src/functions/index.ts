@@ -29,7 +29,7 @@ funcName3('string',123)
 
 
 // void return 
-
+                        // undefined = void
 function funcName4(): void{
     // console.log('function executed');  
 }
