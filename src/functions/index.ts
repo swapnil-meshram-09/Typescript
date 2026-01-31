@@ -35,3 +35,15 @@ function funcName4(): void{
 }
 
 console.log(funcName4());
+
+
+
+// return value
+
+function funcName5(str: string): string{
+    return str
+}
+const value = funcName5('string')
+console.log(value);
+
+
