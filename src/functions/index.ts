@@ -28,3 +28,10 @@ funcName3('string',123)
 
 
 
+// void return 
+
+function funcName4(): void{
+    // console.log('function executed');  
+}
+
+console.log(funcName4());
