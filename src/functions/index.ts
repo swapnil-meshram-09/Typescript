@@ -50,7 +50,16 @@ const value = funcName5('string')
 // union values
 
 function funcName6(value: string | number){
+    // console.log(`${value}`);  
+}
+funcName6('string')
+
+
+
+// optional 
+
+function funcName7(value?: string){
     console.log(`${value}`);
     
 }
-funcName6('string')
+funcName7('string')
