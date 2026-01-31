@@ -64,3 +64,13 @@ function funcName7(value?: string){
 funcName7('string')
 funcName7('')        // white space
 funcName7()          // undefined
+
+
+
+// types
+
+type food = {
+    name: string,
+    price: number,
+    quantity: number
+}
