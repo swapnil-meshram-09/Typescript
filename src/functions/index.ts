@@ -59,7 +59,8 @@ funcName6('string')
 // optional 
 
 function funcName7(value?: string){
-    console.log(`${value}`);
-    
+    // console.log(`${value}`);
 }
 funcName7('string')
+funcName7('')        // white space
+funcName7()          // undefined
