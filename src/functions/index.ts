@@ -82,3 +82,5 @@ function funcName8(food1: food){
     
 }
 funcName8({name:'pizza', price:150, quantity:2})
+
+funcName8({name:'burger', price:80, quantity:4})
