@@ -75,7 +75,8 @@ type food = {
     quantity: number
 }
 
-function funcName8(){
-
+function funcName8(food1: food){
+    console.log(`${food1}`);
+    
 }
-funcName8()
+funcName8({name:'pizza', price:150, quantity:2})
