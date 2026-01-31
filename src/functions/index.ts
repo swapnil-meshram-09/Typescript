@@ -19,7 +19,7 @@ funcName2()
 
 
 
-// argument values
+// arguments 
 
 function funcName3(str: string, num: number){
     // console.log(`${str} ${num}`);
@@ -37,12 +37,20 @@ function funcName4(): void{
 
 
 
-// return value
+// value return 
 
 function funcName5(str: string): string{
     return str
 }
 const value = funcName5('string')
-console.log(value);
+// console.log(value);
 
 
+
+// union values
+
+function funcName6(value: string | number){
+    console.log(`${value}`);
+    
+}
+funcName6('string')
