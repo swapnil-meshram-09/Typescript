@@ -10,8 +10,21 @@
 
 // function with types
 
-function funcName(value: string='string1'){
-    console.log(`${value}`);
-    
+// default value
+
+function funcName2(value: string='string1'){
+    // console.log(`${value}`);  
 }
-funcName()
+funcName2()
+
+
+
+// argument values
+
+function funcName3(str: string, num: number){
+    // console.log(`${str} ${num}`);
+}
+funcName3('string',123)
+
+
+
