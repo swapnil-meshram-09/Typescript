@@ -74,3 +74,8 @@ type food = {
     price: number,
     quantity: number
 }
+
+function funcName8(){
+
+}
+funcName8()
