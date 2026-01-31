@@ -33,8 +33,7 @@ funcName3('string',123)
 function funcName4(): void{
     // console.log('function executed');  
 }
-
-console.log(funcName4());
+// console.log(funcName4());
 
 
 
