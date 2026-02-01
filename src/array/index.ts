@@ -19,15 +19,28 @@ type product = {
     quantity: number
 }
 
-const products: product[] = [
+const product1: product[] = [
     {name: 'product1', quantity: 2},
     {name: 'product2', quantity: 3},
     {name: 'product3', quantity: 4}
 ]
 
-console.log(products);
-console.log(products[1]);
-console.log(products[1]['name']);
-console.log(products[1]['quantity']);
+// console.log(product1);
+// console.log(product1[1]);
+// console.log(product1[1]['name']);
+// console.log(product1[1]['quantity']);
 
+
+
+
+const product2: Array<product> = [
+    {name: 'product1', quantity: 2},
+    {name: 'product2', quantity: 3},
+    {name: 'product3', quantity: 4}
+]
+
+// console.log(product2);
+// console.log(product2[1]);
+// console.log(product2[1]['name']);
+// console.log(product2[1]['quantity']);
 

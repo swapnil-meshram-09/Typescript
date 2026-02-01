@@ -14,3 +14,10 @@ const product: [string,string,number,number] = ['category','name',100,2]
 
 
 // custom types
+
+type product = {
+    name: string,
+    quantity: number
+}
+
+const products: 
