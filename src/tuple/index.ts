@@ -1,2 +1,9 @@
-const price: [number, number, number] = [100,200,300]
+const price: [number,number,number] = [100,200,300]
 // console.log(price);
+
+const names: [string,string,string] = ['name1','name2','name3']
+console.log(names);
+
+
+
+
