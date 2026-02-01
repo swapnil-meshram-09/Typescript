@@ -4,3 +4,5 @@ let apiRequestStatus: 'Pending' | 'Failed' | 'Success' = 'Pending'
 
 apiRequestStatus = 'Success'
 console.log(apiRequestStatus);
+
+
