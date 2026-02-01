@@ -10,4 +10,7 @@ const names: [string,string,string] = ['name1','name2','name3']
 
 
 const product: [string,string,number,number] = ['category','name',100,2]
-console.log(product);
+// console.log(product);
+
+
+// custom types

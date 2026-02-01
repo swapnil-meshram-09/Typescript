@@ -25,6 +25,9 @@ const products: product[] = [
     {name: 'product3', quantity: 4}
 ]
 
-// console.log(products);
+console.log(products);
+console.log(products[1]);
+console.log(products[1]['name']);
+console.log(products[1]['quantity']);
 
 
