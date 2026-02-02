@@ -7,8 +7,10 @@ enum clothSize {
     medium,
     large
 }
-console.log(clothSize);
-console.log(clothSize.large);
+// console.log(clothSize);
+// console.log(clothSize.large);   // default value = 2
+
+
 
 
 enum clothSize2 {
@@ -24,12 +26,14 @@ enum clothSize2 {
 
 
 
+
 // no error for enum variable but give error for duplicate identifiers.
 
 enum clothSize2 {
     small1 = 1,
-    medium2 = 2,
+    medium2 = 4,
     large3 = 3
 }
 
-console.log(clothSize2);
+// console.log(clothSize2.medium);      // 2
+// console.log(clothSize2.medium2);     // 4
