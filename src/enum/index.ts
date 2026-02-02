@@ -27,10 +27,6 @@ enum clothSize2 {
 // no error for enum variable but give error for duplicate identifiers.
 
 enum clothSize2 {
-    // small = 0,
-    // medium = 1,
-    // large = 2
-                    // auto increment values
     small1 = 1,
     medium2 = 2,
     large3 = 3
