@@ -48,5 +48,5 @@ const product2: [product,product] = [
       quantity: 3
     },
 ]
-console.log(product2);
+// console.log(product2);
 
