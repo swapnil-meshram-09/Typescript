@@ -20,10 +20,10 @@ type product = {
     quantity: number
 }
 
-const products: [product] = [
+const product1: [product] = [
     {
       name: 'name',
       quantity: 2
-    }
+    },
 ]
-console.log(products);
+console.log(product1);
