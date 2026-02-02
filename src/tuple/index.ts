@@ -27,3 +27,19 @@ const product1: [product] = [
     },
 ]
 console.log(product1);
+
+
+
+
+const product2: [product,product] = [
+    {
+      name: 'name1',
+      quantity: 2
+    },
+    {
+      name: 'name2',
+      quantity: 3
+    },
+]
+console.log(product2);
+
