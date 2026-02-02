@@ -47,8 +47,8 @@ enum juice {
     large
 }
 
-function menu(juice){
-    console.log(juice);
+function menu(juice1 :juice){
+    console.log(juice1);
     
 }
 menu(juice)
