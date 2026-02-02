@@ -52,7 +52,7 @@ const twoDim: number[][] = [
     [1,2,3],
     [4,5,6]
 ]
-console.log(twoDim);
+// console.log(twoDim);
 
 
 const threeDim: number[][][] = [
@@ -61,9 +61,8 @@ const threeDim: number[][][] = [
       [4,5,6]
     ],
     [
-      [1,2,3],
-      [4,5,6]
+      [7,8,9],
+      [10,11,12]
     ]
 ]
-
-console.log(threeDim);
+// console.log(threeDim);
