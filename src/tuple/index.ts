@@ -13,6 +13,14 @@ const product: [string,string,number,number] = ['category','name',100,2]
 // console.log(product);
 
 
+
+// named tuples
+
+const food: [name:string, price:number, quantity:number] = ['pizza',150,1]
+console.log(food);
+
+
+
 // custom types
 
 type product = {
@@ -26,8 +34,7 @@ const product1: [product] = [
       quantity: 2
     },
 ]
-console.log(product1);
-
+// console.log(product1);
 
 
 
