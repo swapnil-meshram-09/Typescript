@@ -37,3 +37,18 @@ enum clothSize2 {
 
 // console.log(clothSize2.medium);      // 2
 // console.log(clothSize2.medium2);     // 4
+
+
+
+
+enum juice {
+    small,
+    medium,
+    large
+}
+
+function menu(juice){
+    console.log(juice);
+    
+}
+menu(juice)
