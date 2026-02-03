@@ -7,7 +7,6 @@ const user = {
 // console.log(user);
 
 
-
 // typescipt object:-
 
 let user2: {
@@ -29,4 +28,5 @@ console.log(user2);
 //     name: string;
 //     number: number;
 // }
+
 
