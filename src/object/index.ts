@@ -1,4 +1,4 @@
-// javascript object: -
+// javascript object:-
 
 const user = {
     name: 'name',
@@ -8,7 +8,7 @@ const user = {
 
 
 
-// typescipt objects
+// typescipt object:-
 
 let user2: {
     name: string,
@@ -21,4 +21,12 @@ user2 = {
 }
 
 console.log(user2);
+
+
+// typescript object infer
+
+// {
+//     name: string;
+//     number: number;
+// }
 
