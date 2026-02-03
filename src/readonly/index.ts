@@ -13,3 +13,12 @@ user = 'newUserName'
 // let number: readonly number = 123
 
 
+
+// array
+
+// error             ----------
+//  let num: number[] readonly = [1,2,3]
+
+
+let num: readonly number[] = [1,2,3]
+console.log(num);
