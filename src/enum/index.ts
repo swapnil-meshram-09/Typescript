@@ -41,6 +41,8 @@ enum clothSize2 {
 
 
 
+// passing enum as argument to function
+
 enum juice {
     small,
     medium,
@@ -48,6 +50,56 @@ enum juice {
 }
 
 function menu(juice1 :juice){
-    console.log(juice1);
+    // console.log(juice1);       // value = 2
 }
 menu(juice.large)
+
+
+
+// constant enum
+
+enum price {
+    low,
+    high
+}
+
+
+// allowed
+
+enum price {
+    // not allowed
+    // low,
+    // high  
+
+    // allowed
+    lower = 0, 
+    higher = 1 
+}
+
+
+const enum sale {
+    loss,
+    profit
+}
+
+
+// not allowed
+// enum sale {
+
+// }
+
+
+// allowed
+
+const enum sale {
+   // not allowed
+   // loss,
+   // profit
+
+   // allowed
+   losses = 0,
+   profits = 1
+}
+
+// sale.loss
+// sale.losses
