@@ -41,4 +41,8 @@ const users: user3 = {
     name:"name",
     number: 123,
 }
-console.log(users);
+// console.log(users);
+
+
+
+
