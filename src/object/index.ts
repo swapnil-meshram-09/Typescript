@@ -146,7 +146,7 @@ const car1: Pick<vehicles, 'car'> = {
 // actual way
 type car2 = Pick<vehicles, 'car'>
 
-const actualCar: car2 = {
+const actualCar = {
     car: 'car'
 }
 console.log(actualCar);
