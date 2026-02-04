@@ -122,3 +122,19 @@ const required2 = (values: Required<password2>)=>{
 // error showing but executing
 // required2({lowercase:'lowercase',uppercase:'uppercase'})
 // required2({})
+
+
+
+
+
+// Pick
+
+type vehicles = {
+    car: 'string';
+    bike: 'string'
+}
+
+const pick1: Pick<vehicles,'car'> = {
+    car: 'car'
+}
+console.log(pick1);
