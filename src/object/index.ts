@@ -87,9 +87,31 @@ type password = {
 const partially: Partial<password> = {
     lowercase: 'lowercase',
 }
-console.log(partially);
+// console.log(partially);    // { lowercase: 'lowercase' }
 
 
 
+// another way for Partial
+                                            // (): void =>{}
+const partially2 = (lowercase: Partial<password>) =>{
+    console.log(lowercase);
+}
+// partially2({lowercase: 'lowercase'})    // { lowercase: 'lowercase' }
+
+
+
+
+// Required variables / values
+
+type password2 = {
+    lowercase?: 'string';
+    uppercase?: 'string';
+}
+
+const requires: Required<password2> = {
+    lowercase: 'lowercase',
+    uppercase: 'uppercase'
+}
+// console.log(requires);
 
 
