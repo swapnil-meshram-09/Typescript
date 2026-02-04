@@ -45,4 +45,21 @@ const users: user3 = {
 
 
 
+// object ducking
 
+type insta = {
+    username: string;
+}
+
+let web: insta = {
+    username: 'name',
+}
+
+let app = {
+    username: 'name',
+    password: 'password'
+}
+
+const final = web = app
+
+console.log(final);
