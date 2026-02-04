@@ -2,7 +2,7 @@
 
 const user = {
     name: 'name',
-    number: 123           
+    number: 123,          
 }
 // console.log(user);
 
@@ -10,8 +10,8 @@ const user = {
 // typescipt object:-
 
 let user2: {
-    name: string,
-    number: number
+    name: string;
+    number: number;
 }
 
 user2 = {
@@ -19,10 +19,10 @@ user2 = {
     number: 123 
 }
 
-console.log(user2);
+// console.log(user2);
 
 
-// typescript object infer
+// typescript object's infer
 
 // {
 //     name: string;
@@ -30,3 +30,15 @@ console.log(user2);
 // }
 
 
+// typescript object using type keyword
+
+type user3 = {
+    name: string;
+    number: number;
+}
+
+const users: user3 = {
+    name:"name",
+    number: 123,
+}
+console.log(users);
