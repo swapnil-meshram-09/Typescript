@@ -136,8 +136,17 @@ type vehicles = {
 
 
 // way one
-const car: Pick<vehicles, 'car'> = {
+const car1: Pick<vehicles, 'car'> = {
       car: 'string'
 }
-// console.log(car);      // { car: 'string' }
+// console.log(car1);      // { car: 'string' }
 
+
+
+// actual way
+type car2 = Pick<vehicles, 'car'>
+
+const actualCar: car2 = {
+    car: 'car'
+}
+console.log(actualCar);
