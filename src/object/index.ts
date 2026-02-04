@@ -115,3 +115,10 @@ const requires: Required<password2> = {
 // console.log(requires);
 
 
+const required2 = (values: Required<password2>)=>{
+    // console.log(values);
+}
+
+// error showing but executing
+// required2({lowercase:'lowercase',uppercase:'uppercase'})
+// required2({})
