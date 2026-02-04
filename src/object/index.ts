@@ -81,9 +81,13 @@ type password = {
     lowercase: string;
     uppercase: string;
     number: number;
-    specialCharacter: string
+    specialCharacter: string;
 }
 
+const partially: Partial<password> = {
+    lowercase: 'lowercase',
+}
+console.log(partially);
 
 
 
