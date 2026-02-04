@@ -134,3 +134,10 @@ type vehicles = {
     bike: 'string'
 }
 
+
+// way one
+const car: Pick<vehicles, 'car'> = {
+      car: 'string'
+}
+// console.log(car);      // { car: 'string' }
+
