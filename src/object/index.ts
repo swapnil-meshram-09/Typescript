@@ -75,6 +75,17 @@ let app2 = {
 
 
 
+// Partial variables
 
-// 
+type password = {
+    lowercase: string;
+    uppercase: string;
+    number: number;
+    specialCharacter: string
+}
+
+
+
+
+
 
