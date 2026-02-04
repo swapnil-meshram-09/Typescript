@@ -134,7 +134,16 @@ type vehicles = {
     bike: 'string'
 }
 
+// way one
 const pick1: Pick<vehicles,'car'> = {
     car: 'car'
 }
-console.log(pick1);
+// console.log(pick1);
+
+
+// way two
+const pick2 = (car: Pick<vehicles,'car'>) =>{
+    console.log(car);
+    
+}
+pick2({car:'car'})
