@@ -7,6 +7,7 @@ const user = {
 // console.log(user);
 
 
+
 // typescipt object:-
 
 let user2: {
@@ -18,8 +19,9 @@ user2 = {
     name: 'name',
     number: 123 
 }
-
 // console.log(user2);
+
+
 
 
 // typescript object's infer
@@ -28,6 +30,8 @@ user2 = {
 //     name: string;
 //     number: number;
 // }
+
+
 
 
 // typescript object using type keyword
@@ -45,6 +49,7 @@ const users: user3 = {
 
 
 
+
 // object ducking
 
 type insta = {
@@ -59,7 +64,17 @@ let app = {
     username: 'name',
     password: 'password'
 }
+// console.log(web = app);     // { username: 'name', password: 'password' }
 
-const final = web = app
 
-console.log(final);
+let app2 = {    
+    // Property 'username' is missing in type '{}' but required in type 'insta'.ts(2741)index.ts(56, 5): 'username' is declared here.
+}
+// console.log(web = app2);    // {}
+
+
+
+
+
+// 
+
