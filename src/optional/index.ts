@@ -9,5 +9,5 @@ food = ['name', 120]
 // console.log(food);
 
 food = ['name', 120, true]
-console.log(food);
+// console.log(food);
 
