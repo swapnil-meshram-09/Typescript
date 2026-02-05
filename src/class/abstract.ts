@@ -8,3 +8,6 @@ abstract class user {
 // const user1 = new user()    // error => Cannot create an instance of an abstract class.
 
 
+class data{
+    password: string =''
+}
