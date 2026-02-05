@@ -4,10 +4,14 @@ class vehicle{
     constructor(){
 
     } 
+    print():void{
+        console.log(this.category);
+        
+    }
 }
 
 class bike extends vehicle {
-     
+
 }
 
 const vehicle1 = new vehicle()
