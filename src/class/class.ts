@@ -5,7 +5,7 @@ class user{
     number:number = 123
 
     print(): void{
-        // console.log(name);    // 'name' is deprecated.
+        // console.log(name);    // error => 'name' is deprecated.
         console.log(this.name);
         
     } 
