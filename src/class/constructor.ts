@@ -23,12 +23,12 @@ class menu {
     // when object init = constructor automatically called.
     constructor(){
         // console.log(food);   //error
-        
-        console.log(this.food);
+
+        console.log(this.food);    // foodName
     }
 }
 const menu1 = new menu()
-console.log(menu1);
+// console.log(menu1);         // menu { food: 'foodName', price: 120 }
 
 
 
