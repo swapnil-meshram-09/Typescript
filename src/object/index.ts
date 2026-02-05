@@ -131,7 +131,7 @@ const required2 = (values: Required<password2>)=>{
 
 type vehicles = {
     car: 'string';
-    bike: 'string'
+    bike: 'string';
 }
 
 
@@ -146,7 +146,7 @@ const car1: Pick<vehicles, 'car'> = {
 // actual way
 type car2 = Pick<vehicles, 'car'>
 
-const actualCar = {
+const actualCar:car2 = {
     car: 'car'
 }
-console.log(actualCar);
+// console.log(actualCar);     // { car: 'car' }
