@@ -9,8 +9,8 @@ apiRequestStatus = 'Success'
 // custom types
 
 type product = {
-    name: string,
-    quantity: number
+    name: string;
+    quantity: number;
 }
 
 const menu: product = {
