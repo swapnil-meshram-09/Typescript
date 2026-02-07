@@ -10,3 +10,6 @@ function obj2(name:string, num:number){
     console.log(name); 
 }
 // obj2('name',123)
+
+
+
