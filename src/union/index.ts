@@ -4,8 +4,8 @@ let value1: string | number = 10
 let value2: string | number = '10'
 // console.log(value2);
 
-let value3: 'string' | 123 = 123
-console.log(value3);
+let value3: 'string' | 123 = 123 // 'string',123   // error => '', 'defe', 134
+// console.log(value3);
 
 
 
