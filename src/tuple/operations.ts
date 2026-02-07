@@ -11,3 +11,12 @@ tup1.pop()
 // console.log(tup1[2]);   // 3
 // console.log(tup1[3]);      // 5 but error=> Tuple type '[number, number, number]' of length '3' has no element at index '3'.
 
+
+
+const tup2: [string,string,string] = ['a','b','c']
+
+tup2.push()
+console.log(tup2);
+
+tup2.pop()
+console.log(tup2);
