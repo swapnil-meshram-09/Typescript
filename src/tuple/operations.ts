@@ -15,8 +15,8 @@ tup1.pop()
 
 const tup2: [string,string,string] = ['a','b','c']
 
-tup2.push()
-console.log(tup2);
+tup2.push('d')
+// console.log(tup2);
 
 tup2.pop()
-console.log(tup2);
+// console.log(tup2);
