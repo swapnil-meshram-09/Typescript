@@ -36,19 +36,14 @@ const menu1 = new menu()
 
 // javascript
 class user3{
-    constructor(name, num){
-        this.name = name;
-        this.num = num;
+    // constructor(name, num){
+    //     this.name = name;
+    //     this.num = num;
     }
-    print(){
-        console.log(`${this.name},
-           
-           
-            ${this.num}`); 
-    }
-
-
-}
-const users3 = new user3('name',123)
-users3.print()
+    // print(){
+        // console.log(`${this.name},${this.num}`); 
+    // }
+// }
+// const users3 = new user3('name',123)
+// users3.print()
 
