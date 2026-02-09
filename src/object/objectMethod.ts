@@ -52,6 +52,22 @@ const objjj3 = Object.defineProperty(obj3,'name',{
 // loop
 
 for(let [key,value] of Object.entries(obj3)){
-    console.log(`${key}:${value}`);
+    // console.log(`${key}:${value}`);
+                        //   {
+                        //    name:new
+                        //    number:123
+                        //    func:function() {
+                        //    console.log(this.name);
+                        //   }
+
+    if(typeof value !== 'function' ){
+        // console.log(`${key}:${value}`);
+        
+                        // name:new
+                        // number:123
+
+    }  
+                            
+
 }
 
