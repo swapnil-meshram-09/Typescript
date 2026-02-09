@@ -23,7 +23,11 @@ const pi = Object.getOwnPropertyDescriptor(Math,'PI')
 
 const obj3 = {
     name: 'string',
-    number: 123
+    number: 123,
+    func: function() {
+        console.log(this.name);
+        
+    }
 }
 
 const objj3 = Object.getOwnPropertyDescriptor(obj3,'name')
@@ -47,7 +51,7 @@ const objjj3 = Object.defineProperty(obj3,'name',{
 
 // loop
 
-for(){
-    
+for(let [key,value] of Object.entries(obj3)){
+    console.log(`${key}:${value}`);
 }
 
