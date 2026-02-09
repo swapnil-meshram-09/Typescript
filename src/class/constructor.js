@@ -41,10 +41,14 @@ class user3{
         this.num = num;
     }
     print(){
-        this.name
-        this.num
+        console.log(`${this.name},
+           
+           
+            ${this.num}`); 
     }
 
 
 }
 const users3 = new user3('name',123)
+users3.print()
+
